@@ -1,7 +1,7 @@
 .PHONY: all clean
 
 CPPFLAGS = -I../include -I../include/id3v2lib
-CFLAGS = -g -Wall -std=c99
+CFLAGS = -g -Wall -Wextra -pedantic -std=c99
 
 OBJS = frame.o \
        header.o \
