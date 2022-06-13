@@ -27,7 +27,7 @@ However, it can be extended, in a very easy manner, to read other id3 tags.
 
 ### Building using CMake
 
-The id3v2lib library is built using CMake 2.6+ on all platforms. On most systems you can build and install the library using the following commands:
+The id3v2lib library is built using CMake 3.5+ on all platforms. On most systems you can build and install the library using the following commands:
 
 	$ mkdir build && cd build
 	$ cmake ..
